@@ -6,7 +6,10 @@
 </ul> -->
 
 <div class="row">
-  <div *ngFor="let item of resultados" class="col-md-4 col-sm-6">
+  <div
+    *ngFor="let item of resultados"
+    class="col-md-4 col-sm-6 animate__animated animate__zoomIn"
+  >
     <div class="card">
       <img
         [src]="item.images.downsized_medium.url"
